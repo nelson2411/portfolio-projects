@@ -19,5 +19,14 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
+    /* install gatsby plugin for strapi v3 */
+    {
+      resolve: `gatsby-source-strapi`,
+      options: {
+        apiURL: `http://localhost:1337`,
+        queryLimit: 1000, // Defaults to 100
+        collectionTypes: [`job`],
+      },
+    },
   ],
 }
