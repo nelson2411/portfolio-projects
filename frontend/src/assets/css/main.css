@@ -729,6 +729,7 @@ Projects
 }
 .project-icon:hover {
   color: var(--clr-primary-1);
+  transform: rotate(-45deg) scale(1.2);
 }
 @media screen and (min-width: 576px) {
   .project-img {

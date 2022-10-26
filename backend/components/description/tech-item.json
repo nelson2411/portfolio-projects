@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_description_tech_items",
+  "info": {
+    "name": "tech_item",
+    "icon": "tools"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
