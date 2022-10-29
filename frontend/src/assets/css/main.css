@@ -779,11 +779,12 @@ Footer
 ===============
 */
 .footer {
-  height: 9rem;
+  min-height: 9rem;
   background: #222;
   text-align: center;
   display: grid;
   place-items: center;
+  padding: 1.3rem;
 }
 .footer h4 {
   margin-top: 0.5rem;
