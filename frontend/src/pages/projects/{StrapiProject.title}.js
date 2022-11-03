@@ -8,7 +8,7 @@ const ProjectTemplate = ({ pageContext: { title }, data }) => {
       <SEO
         title={data.strapiProject.title}
         description={data.strapiProject.description}
-        image={data.strapiProject.image.publicURL}
+        image={data.strapiProject.image.url}
       />
       <main className="project-template-page">
         <h2>{title}</h2>
@@ -24,7 +24,7 @@ export const query = graphql`
       description
       title
       image {
-        publicURL
+        url
       }
     }
   }
