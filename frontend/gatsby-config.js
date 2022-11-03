@@ -15,7 +15,7 @@ module.exports = {
     titleTemplate: `%s | NR - Portfolio`,
     url: `https://timely-tulumba-334750.netlify.app`,
     twitterUsername: `@NelsonRosales27`,
-    image: `/imgMain.jpg`,
+    image: `/imgMain.png`,
   },
 
   plugins: [
