@@ -9,6 +9,11 @@ const ProjectsPage = ({
 }) => {
   return (
     <>
+      <Seo
+        title="Projects"
+        description="Welcome to the projects list of my Full Stack Web Developer portfolio"
+      />
+
       <main>
         <section className="projects-page">
           <Projects projects={projects} title="all projects" />

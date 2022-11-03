@@ -7,6 +7,17 @@
 module.exports = {
   /* Your site config here */
 
+  siteMetadata: {
+    title: "NR - Full-Stack Portfolio",
+    description: "Full Stack Web Developer portfolio",
+    keywords: "gatsbyjs, javascript, react, css, recipes, El Salvador",
+    author: "Nelson Rosales",
+    titleTemplate: "%s · NR - Portfolio",
+    url: "https://timely-tulumba-334750.netlify.app/",
+    twitterUsername: "@NelsonRosales27",
+    image: "/imgMain.jpg",
+  },
+
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,

@@ -9,6 +9,10 @@ const About = ({ data }) => {
   } = data
   return (
     <>
+      <Seo
+        title="About"
+        description="Read a little bit about me and my skills"
+      />
       <section className="about-page">
         <div className="section-center about-center">
           <img
