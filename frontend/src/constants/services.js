@@ -6,14 +6,13 @@ const services = [
     id: 1,
     icon: <FaCode className="service-icon" />,
     title: "web development",
-    text: `My experience includes building websites for small businesses in a variety of industries. Bring your ideas to life with HTML/CSS and Javascript. With me, you'll get a complete solution to your project, from domain management to coding to hosting. .`,
+    text: `My experience includes building websites for small businesses in a variety of industries. Bring your ideas to life with HTML/CSS and Javascript. With me, you'll get a complete solution to your project, from domain management to coding to hosting.`,
   },
   {
     id: 2,
     icon: <DiGoogleAnalytics className="service-icon" />,
     title: "Analytics",
-    text: `Would you like to know how to tailor your marketing strategies? Using Google Analytics, I can provide insights into what your audience is looking for on your website. Additionally, organic SEO is included. 
-.`,
+    text: `Would you like to know how to tailor your marketing strategies? Using Google Analytics, I can provide insights into what your audience is looking for on your website. Additionally, organic SEO is included.`,
   },
   {
     id: 3,
