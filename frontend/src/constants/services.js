@@ -12,15 +12,14 @@ const services = [
     id: 2,
     icon: <DiGoogleAnalytics className="service-icon" />,
     title: "Analytics",
-    text: `Would you like to know how to tailor your marketing strategies? Using Google analytics, I can provide insights into what your audience is looking for on your website. Additionally, organic SEO is included. 
+    text: `Would you like to know how to tailor your marketing strategies? Using Google Analytics, I can provide insights into what your audience is looking for on your website. Additionally, organic SEO is included. 
 .`,
   },
   {
     id: 3,
     icon: <FaReact className="service-icon" />,
     title: "React Web-Apps",
-    text: `Are you looking for a ReactJs developer to join your team. Feel free to contact me. My experience included React 16+, NextJs and Gatsby. 
-    I am confortable working with SASS, Styled-components and Material UI.`,
+    text: `Are you looking for a ReactJs developer to join your team? Feel free to contact me. My experience includes React 16+, NextJs, and Gatsby. I am comfortable working with SASS, Styled-components, and Material UI.`,
   },
 ]
 
